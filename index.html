@@ -1,7 +1,111 @@
 <!DOCTYPE html>
-<html>
-   <body>
-      <h1>Hello World</h1>
-      <p>I'm hosted with GitHub Pages.</p>
-   </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Side Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #4f46e5;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .project {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+      position: relative;
+    }
+    .project:hover {
+      transform: translateY(-3px);
+    }
+    .project h2 {
+      margin-top: 0;
+      color: #4f46e5;
+    }
+    .project p {
+      margin-bottom: 0.5rem;
+    }
+    .project a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .language-tag {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+      background-color: #e5e7eb;
+      color: #111827;
+      font-size: 0.8rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Side Projects</h1>
+    <p>A collection of things I've built for fun ✨</p>
+  </header>
+  <main>
+    <div class="project">
+      <h2>🤖 AI-Chat-Demo</h2>
+      <p>透過本地Llama模型實現AI問答</p>
+      <a href="https://github.com/LN0330/AI-Chat-Demo" target="_blank">View Project →</a>
+      <div class="language-tag">C#</div>
+    </div>
+
+    <div class="project">
+      <h2>🖼️ AI-ImageGenerator-Demo</h2>
+      <p>透過本地Stable Diffusion模型實現AI繪圖 (txt2img)</p>
+      <a href="https://github.com/LN0330/AI-ImageGenerator-Demo" target="_blank">View Project →</a>
+      <div class="language-tag">C#</div>
+    </div>
+
+    <div class="project">
+      <h2>⏰ Voice-Alarm-Clock</h2>
+      <p>語音辨識 + 網頁爬蟲 + 資料庫 + UI設計</p>
+      <a href="https://github.com/LN0330/Voice-Alarm-Clock-master" target="_blank">View Project →</a>
+      <div class="language-tag">Python</div>
+    </div>
+    
+    <div class="project">
+      <h2>🏓 iOS-Objective-c-PingPong_Game</h2>
+      <p>一款與電腦互動對打兵乓球的iOS APP</p>
+      <a href="https://github.com/LN0330/iOS-Objective-c-PingPong_Game" target="_blank">View Project →</a>
+      <div class="language-tag">Objective-C</div>
+    </div>
+  </main>
+  <footer>
+    © 2025 Leon. Built with GitHub Pages.
+  </footer>
+</body>
 </html>
